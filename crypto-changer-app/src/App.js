@@ -4,9 +4,11 @@ import Crypt from './Components/Crypt';
 
 function App() {
   return (
-    <>
+    <div style={{
+      zIndex:"1"
+    }}>
   <Crypt/>
-    </>
+    </div>
   );
 }
 
